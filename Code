@@ -2,9 +2,25 @@
 
 
 # Importing Libraries
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Mounting Google Drive
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Loading the Airbnb (NYC) 2019 Dataset
+df = pd.read_csv("/content/drive/MyDrive/Almabetter/Capstone Projects/Data Analysis/Airbnb NYC 2019.csv")
+
+# Data Manipulation
+
+# Overview of the Dataset
+
+df.head()
+
+df.tail()
+
+
